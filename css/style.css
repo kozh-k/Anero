@@ -72,14 +72,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "Josefin Sans";
-  src: url("fonts/500.ttf");
+  src: url("../fonts/500.ttf");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Josefin Sans";
-  src: url("fonts/700.ttf");
+  src: url("../fonts/700.ttf");
   font-weight: 700;
   font-style: normal;
 }
@@ -421,7 +421,7 @@ a:hover {
 
 @media (min-width: 1200px) {
   .header {
-    background-image: url(img/i_o_5.jpg);
+    background-image: url(../img/i_o_5.jpg);
   }
 }
 
@@ -430,7 +430,7 @@ a:hover {
     max-width: 970px;
   }
   .header {
-    background-image: url(img/i_o_6.jpg);
+    background-image: url(../img/i_o_6.jpg);
   }
 }
 
@@ -439,7 +439,7 @@ a:hover {
     max-width: 750px;
   }
   .header {
-    background-image: url(img/i_o_7.jpg);
+    background-image: url(../img/i_o_7.jpg);
   }
   .footer__images {
     padding: 0px 42%;
@@ -452,7 +452,7 @@ a:hover {
     padding: 0px 30px;
   }
   .header {
-    background-image: url(img/i_o_8.jpg);
+    background-image: url(../img/i_o_8.jpg);
   }
   .roadmap__row {
     -webkit-box-orient: vertical;
