@@ -4,8 +4,20 @@
 <head>
 	<title>Imaginary Ones</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#menu").on("click", "a", function (event) {
+				event.preventDefault();
+				var id = $(this).attr('href'),
+					top = $(id).offset().top;
+				$('body,html').animate({ scrollTop: top }, 800);
+			});
+		});
+	</script>
 </head>
 
 <body>
@@ -16,10 +28,10 @@
 				<div class="container">
 					<div class="header__column">
 						<div class="header__row">
-							<div class="header__menu">
-								<div class="header__point"> <a href="#about">About us</a></div>
-								<div class="header__point"> <a href="#roadmap">Roadmap</a></div>
-								<div class="header__point"> <a href="#arts">My arts</a></div>
+							<div id="menu" class="header__menu">
+								<div class="header__point"><a class="link" href="#about">About us</a></div>
+								<div class="header__point"><a class="link" href="#roadmap">Roadmap</a></div>
+								<div class="header__point"><a class="link" href="#arts">My arts</a></div>
 							</div>
 						</div>
 						<div class="header__text">Imaginary Ones - a collection of 8888 unique NFT's, living in the Imaginary
@@ -56,17 +68,17 @@
 								<div class="main__title">Roadmap</div>
 								<div class="roadmap__stage">
 									<div class="roadmap__row">
-										<div class="roadmap__image"><img src="/img/i_o_12.jpg" alt="#"></div>
+										<div class="roadmap__image"><img src="img/gif1.gif" alt="#"></div>
 										<div class="roadmap__body">
 											<div class="roadmap__title">STAGE 1</div>
 											<div class="roadmap__text">The drop of first Imaginary Ones collection</div>
 										</div>
 									</div>
 								</div>
-								<div class="main__image"><img src="/img/arrow.png" alt="#"></div>
+								<div class="main__image"><img src="img/arrow.png" alt="#"></div>
 								<div class="roadmap__stage">
 									<div class="roadmap__row roadmap__row_rev">
-										<div class="roadmap__image"><img src="/img/i_o_12.jpg" alt="#"></div>
+										<div class="roadmap__image"><img src="img/gif2.gif" alt="#"></div>
 										<div class="roadmap__body">
 											<div class="roadmap__title">STAGE 2</div>
 											<div class="roadmap__text">The second colllection drop, collabs with other projects and
@@ -74,10 +86,10 @@
 										</div>
 									</div>
 								</div>
-								<div class="main__image"><img src="/img/arrow.png" alt="#"></div>
+								<div class="main__image"><img src="img/arrow.png" alt="#"></div>
 								<div class="roadmap__stage">
 									<div class="roadmap__row">
-										<div class="roadmap__image"><img src="/img/i_o_12.jpg" alt="#"></div>
+										<div class="roadmap__image"><img src="img/gif3.gif" alt="#"></div>
 										<div class="roadmap__body">
 											<div class="roadmap__title">STAGE 3</div>
 											<div class="roadmap__text">A release of an Imaginary Metaverse, where holders will
@@ -102,14 +114,15 @@
 							<div class="footer__body">
 								<div class="footer__part">
 									<div class="fotter__box">
-										Official links
-										<br>
-									</div>
-								</div>
-								<div class="footer__part">
-									<div class="footer__box">
-										My discord
-										<br>
+										<div class="footer__text">
+											Official links
+										</div>
+										<div class="footer__images">
+											<div class="footer__image1"><a href="https://www.instagram.com/theimaginaryones/"><img
+														src="img/inst30.png" alt=""></a></div>
+											<div class="footer__image1"><a href="https://twitter.com/imaginary_ones"><img
+														src="img/tw30.png" alt=""></a></div>
+										</div>
 									</div>
 								</div>
 							</div>
