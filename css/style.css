@@ -580,4 +580,14 @@ a:hover {
   .arts__title {
     font-size: 32px;
   }
+  .arts__column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 33.3%;
+            flex: 0 1 33.3%;
+  }
+  .arts__art {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 66.6%;
+            flex: 0 1 66.6%;
+  }
 }
