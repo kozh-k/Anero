@@ -212,10 +212,19 @@ a:hover {
 }
 
 .main__arts {
+  width: 100%;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0px 0px 8% 0px;
 }
 
 .main__title {
@@ -350,13 +359,75 @@ a:hover {
   margin: 0px auto;
 }
 
+.arts__title {
+  font-weight: 700;
+  font-size: 40px;
+  margin: 2% auto 8% auto;
+  text-align: center;
+}
+
+.arts__part {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.arts__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arts__row_r {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arts__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.arts__art {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+}
+
+.arts img {
+  width: 100%;
+}
+
 .footer {
   background-color: #fff8d3;
   font-size: 22px;
 }
 
 .footer__column {
-  margin: 3% 0px 1% 0px;
+  padding: 3% 0px 1% 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -505,5 +576,8 @@ a:hover {
   .footer__images {
     padding: 0px 35%;
     margin: 4% 0px 10% 0px;
+  }
+  .arts__title {
+    font-size: 32px;
   }
 }
