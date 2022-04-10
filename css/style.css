@@ -129,7 +129,7 @@ a {
 .row {
   opacity: 0.9;
   position: fixed;
-  background-image: url(../../img/Шапка.png);
+  background-image: url(../img/Шапка.png);
   height: 4.9rem;
   top: 0;
   left: 0;
@@ -626,7 +626,7 @@ a {
   }
   .row {
     height: 4rem;
-    background-image: url(../../img/Шапка1.png);
+    background-image: url(../img/Шапка1.png);
   }
   .row__menu {
     margin: 0.4rem 4rem 0.4rem 8rem;
@@ -647,7 +647,7 @@ a {
   }
   .row {
     height: 4rem;
-    background-image: url(../../img/Шапка2.png);
+    background-image: url(../img/Шапка2.png);
   }
   .row__menu {
     margin: 0.6rem 2rem 0.3rem 6.8rem;
