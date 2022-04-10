@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Imaginary Ones</title>
+	<title>Anero</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<meta charset="UTF-8" />
@@ -23,22 +23,41 @@
 <body>
 	<div class="wrapper">
 		<div class="content">
+			<div class="row">
+				<div id="menu" class="row__menu">
+					<div class="row__point_m">
+						<a class="link" href="#home">
+							<div class="row__point">Home</div>
+						</a>
+					</div>
+					<a class="link" href="#about">
+						<div class="row__point">About us</div>
+					</a>
+					<a class="link" href="#roadmap">
+						<div class="row__point">Roadmap</div>
+					</a>
+					<a class="link" href="#team">
+						<div class="row__point">Team</div>
+					</a>
+				</div>
+			</div>
 
-			<header class="header">
+			<header id="home" class="header">
+				<picture class="header__image">
+					<source srcset="/img/banner.png" type="image/png" media="(min-width:1200px)">
+					<source srcset="/img/banner1.png" type="image/png" media="(max-width:1200px)">
+					<source srcset="/img/banner1.png" type="image/png" media="(max-width:992px)">
+					<source srcset="/img/banner3.png" type="image/png" media="(min-width:767px)">
+					<img src="/img/banner.png" alt="#">
+				</picture>
+				<!-- <div class="header__image"><img src="/img/banner.png" alt="#"></div> -->
 				<div class="container">
-					<div class="header__column">
-						<div class="header__row">
-							<div id="menu" class="header__menu">
-								<div class="header__point"><a class="link" href="#about">About us</a></div>
-								<div class="header__point"><a class="link" href="#roadmap">Roadmap</a></div>
-								<div class="header__point"><a class="link" href="#arts">My arts</a></div>
-							</div>
-						</div>
-						<div class="header__text">Imaginary Ones - the collection of 8888 unique NFT's, living in the
-							Imaginary
-							Metaverse - the world where dreams come true.
+					<div class="header__text">
+						<div class="header__title"><span>A</span>NERO</div>
+						<div class="header__cont">A unique <span>NFT</span> project, that is making its own
+							<span>Metaverse</span>
 							<br>
-							Coming soon...
+							Let's join this culture...
 						</div>
 					</div>
 				</div>
@@ -47,127 +66,176 @@
 			<main class="main">
 				<div class="container">
 					<div class="main__column">
+
 						<div id="about" class="main__about about">
 							<div class="about__column">
-								<div class="about__title">About Imaginary Ones project</div>
-								<div class="about__text">Here are a few reasons why Imaginary Ones should be a blue chip
-									project:
-									<ul class="list">
-										<li>- A closed discord with a very high-quality audience</li>
-										<li>- All team members have extensive experience working with well-known brands</li>
-										<li>- High-quality drawings, they are even animated</li>
-										<li>- A roadmap where we can see the Metaverse - a world that will become a home for all
-											Ones, in which all dreams come true</li>
-										<li>- Complex and challenging WL, only dedicated fans who show their creativity and their
-											efforts can be whitelisted</li>
-									</ul>
+								<div class="about__title">What is <span>Anero</span></div>
+								<div class="about__text">Anero is a multiplayer decentralized brand and a collection of 10000
+									NFT's, which vary in rarity and 300 of which are Legendary. The ownership of Anero's NFT
+									guarantees holder many benefits and the
+									place in the Metaverse. The collection is made in anime style with it's own features.
+									<br>
+									Join us and we will be building our culture together...
 								</div>
 							</div>
 						</div>
+
 						<div id="roadmap" class="main__roadmap roadmap">
-							<div class="roadmap__column">
-								<div class="main__title">Roadmap</div>
-								<div class="roadmap__stage">
-									<div class="roadmap__row">
-										<div class="roadmap__image"><img src="img/gif1.gif" alt="#"></div>
-										<div class="roadmap__body">
-											<div class="roadmap__title">STAGE 1</div>
-											<div class="roadmap__text">The drop of the first Imaginary Ones collection</div>
+							<div class="roadmap__flex">
+								<div class="roadmap__title"><span>Road</span>map</div>
+								<div class="roadmap__stages">
+									<div class="roadmap__stage stage">
+										<div class="stage__title">Stage 1</div>
+										<div class="stage__text">The development of our Manga</div>
+										<div class="stage__images">
+											<div class="stage__image stage__image_1">
+												<a href="https://twitter.com/aneroverse"><img src="img/tw.png" alt="#"></a>
+											</div>
+											<div class="stage__image stage__image_1">
+												<a href="https://discord.com/invite/Anero"><img src="img/ds.png" alt="#"></a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="main__image"><img src="img/arrow.png" alt="#"></div>
-								<div class="roadmap__stage">
-									<div class="roadmap__row roadmap__row_rev">
-										<div class="roadmap__image"><img src="img/gif2.gif" alt="#"></div>
-										<div class="roadmap__body">
-											<div class="roadmap__title">STAGE 2</div>
-											<div class="roadmap__text">The second colllection drop, collabs with other projects and
-												brands</div>
+									<div class="roadmap__stage stage">
+										<div class="stage__title">Stage 2</div>
+										<div class="stage__text">The opening of our Streetwear Marketplace</div>
+										<div class="stage__images">
+											<div class="stage__image stage__image_2">
+												<a href="https://twitter.com/aneroverse"><img src="img/tw.png" alt="#"></a>
+											</div>
+											<div class="stage__image stage__image_2">
+												<a href="https://discord.com/invite/Anero"><img src="img/ds.png" alt="#"></a>
+											</div>
 										</div>
 									</div>
-								</div>
-								<div class="main__image"><img src="img/arrow.png" alt="#"></div>
-								<div class="roadmap__stage">
-									<div class="roadmap__row">
-										<div class="roadmap__image"><img src="img/gif3.gif" alt="#"></div>
-										<div class="roadmap__body">
-											<div class="roadmap__title">STAGE 3</div>
-											<div class="roadmap__text">The release of Imaginary Metaverse, where holders will
-												play, have fun together and of course, where all dreams and fantasies come
-												true...</div>
+									<div class="roadmap__stage stage">
+										<div class="stage__title">Stage 3</div>
+										<div class="stage__text">Our Metaverse presentation</div>
+										<div class="stage__images">
+											<div class="stage__image stage__image_3">
+												<a href="https://twitter.com/aneroverse"><img src="img/tw.png" alt="#"></a>
+											</div>
+											<div class="stage__image stage__image_3">
+												<a href="https://discord.com/invite/Anero"><img src="img/ds.png" alt="#"></a>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div id="arts" class="main__arts arts">
-							<div class="arts__title">
-								The gallery of my arts
-							</div>
-							<div class="arts__part">
-								<div class="arts__row">
-									<div class="arts__art">
-										<img src="img/art_4.jpg" alt="">
+
+						<div id="team" class="main__team team">
+							<div class="team__title">Our <span>Team</span></div>
+							<div class="team__grid">
+								<div class="team__point point">
+									<div class="point__image">
+										<img src="img/av1.jpg" alt="#">
 									</div>
-									<div class="arts__column">
-										<div class="arts__el">
-											<img src="img/art_1.jpg" alt="">
-										</div>
-										<div class="arts__el">
-											<img src="img/art_6.jpg" alt="">
-										</div>
+									<div class="point__title"><a
+											href="https://twitter.com/w3bender?t=4jM452h6sxUHy94OisoNKg&s=09">w3bender</a>
+										<!-- <div class="point__image1">
+											<img src="/img/tw.png" alt="#">
+										</div> -->
+									</div>
+									<div class="point__text">Co-founder</div>
+								</div>
+								<div class="team__point point">
+									<div class="point__image">
+										<img src="img/av2.jpg" alt="#">
+									</div>
+									<div class="point__title"><a
+											href="https://twitter.com/mangakaua983?t=GDRVvzliVZUGO-pnb1zPXw&s=09">mangakaua983</a>
+										<!-- <div class="point__image1">
+											<img src="/img/tw.png" alt="#">
+										</div> -->
+									</div>
+									<div class="point__text">Lead artist</div>
+								</div>
+								<div class="team__point point">
+									<div class="point__image">
+										<img src="img/av3.jpg" alt="#">
+									</div>
+									<div class="point__title"><a
+											href="https://twitter.com/downtownlegend?t=zSHrwdwvGyX4vcAzfkyfBg&s=09">downtownlegend</a>
+										<!-- <div class="point__image1">
+											<img src="/img/tw.png" alt="#">
+										</div> -->
+									</div>
+									<div class="point__text">
+										<p>Co-founder &</p>
+										<p>Creative director</p>
 									</div>
 								</div>
-							</div>
-							<div class="arts__part">
-								<div class="arts__row_r">
-									<div class="arts__art">
-										<img src="img/art_5.jpg" alt="">
+								<div class="team__point point">
+									<div class="point__image">
+										<img src="img/av4.jpg" alt="#">
 									</div>
-									<div class="arts__column">
-										<div class="arts__el">
-											<img src="img/art_3.jpg" alt="">
-										</div>
-										<div class="arts__el">
-											<img src="img/art_2.jpg" alt="">
-										</div>
+									<div class="point__title"><a
+											href="https://twitter.com/MochiSenseiii?t=Eh3sOHnlibprFwcm5ft1DA&s=09">MochiSenseiii</a>
+										<!-- <div class="point__image1">
+											<img src="/img/tw.png" alt="#">
+										</div> -->
 									</div>
+									<div class="point__text">
+										<p>Streetwear &</p>
+										<p>Community lead</p>
+									</div>
+								</div>
+								<div class="team__point point">
+									<div class="point__image">
+										<img src="img/av5.jpg" alt="#">
+									</div>
+									<div class="point__title"><a
+											href="https://twitter.com/bugzstreet?t=ObkOo2jiGV5osTilm28CKQ&s=09">bugzstreet</a>
+										<!-- <div class="point__image1">
+											<img src="/img/tw.png" alt="#">
+										</div> -->
+									</div>
+									<div class="point__text">
+										<p>Design &</p>
+										<p>Developer</p>
+									</div>
+								</div>
+								<div class="team__point point">
+									<div class="point__image">
+										<img src="img/av6.jpg" alt="#">
+									</div>
+									<div class="point__title"><a
+											href="https://twitter.com/TokiBusa?t=LWTUZ9oCftxQrsj3kWuWKQ&s=09">TokiBusa</a>
+										<!-- <div class="point__image1">
+											<img src="/img/tw.png" alt="#">
+										</div> -->
+									</div>
+									<div class="point__text">Community lead</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-		</div>
-	</div>
-	</main>
+			</main>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="footer__column">
-				<div class="footer__row">
-					<div class="footer__body">
-						<div class="footer__part">
-							<div class="fotter__box">
-								<div class="footer__text">
-									Official links
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__flex">
+						<div class="footer__links">Official <span>links</span>
+							<div class="footer__images">
+								<div class="footer__image">
+									<a href="https://twitter.com/aneroverse"><img src="/img/tw_1.png" alt="#"></a>
 								</div>
-								<div class="footer__images">
-									<div class="footer__image1"><a href="https://www.instagram.com/theimaginaryones/"><img
-												src="img/inst30.png" alt=""></a></div>
-									<div class="footer__image1"><a href="https://twitter.com/imaginary_ones"><img
-												src="img/tw30.png" alt=""></a></div>
+								<div class="footer__image">
+									<a href="https://www.instagram.com/aneroverse/"><img src="/img/in_1.png" alt="#"></a>
+								</div>
+								<div class="footer__image">
+									<a href="https://discord.com/invite/Anero"><img src="/img/ds_1.png" alt="#"></a>
 								</div>
 							</div>
 						</div>
+						<div class="footer__text">created by <span>Faizy/Anero </span> 2022</div>
 					</div>
 				</div>
-				<div class="footer__bottom">created by ¥ASH | Imaginary Ones, 2022</div>
-			</div>
-		</div>
-	</footer>
+			</footer>
 
-	</div>
+		</div>
 	</div>
 </body>
 
